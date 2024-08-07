@@ -1,0 +1,60 @@
+@relation college
+
+@attribute branch {cse, it, aiml, ece, eee, civil, mech}
+@attribute seat_type {conveneor, management, scholarship}
+@attribute section {a, b, c}
+@attribute name string
+@attribute rollno numeric
+
+@data
+cse, conveneor, a, "John Doe", 101
+it, management, b, "Jane Smith", 102
+aiml, scholarship, c, "Michael Johnson", 103
+ece, conveneor, a, "Emily Davis", 104
+eee, management, b, "David Brown", 105
+civil, scholarship, c, "Emma Wilson", 106
+mech, conveneor, a, "Daniel Martinez", 107
+cse, management, b, "Olivia Anderson", 108
+it, scholarship, c, "Sophia Garcia", 109
+aiml, conveneor, a, "James Wilson", 110
+ece, management, b, "Isabella Lopez", 111
+eee, scholarship, c, "Benjamin Gonzalez", 112
+civil, conveneor, a, "Mia Miller", 113
+mech, management, b, "Charlotte Moore", 114
+cse, scholarship, c, "William Rivera", 115
+it, conveneor, a, "Ava Hall", 116
+aiml, management, b, "Ethan Young", 117
+ece, scholarship, c, "Harper Lee", 118
+eee, conveneor, a, "Evelyn Perez", 119
+civil, management, b, "Logan King", 120
+mech, scholarship, c, "Amelia Scott", 121
+cse, conveneor, a, "Liam Green", 122
+it, management, b, "Aria Baker", 123
+aiml, scholarship, c, "Lucas Lewis", 124
+ece, conveneor, a, "Aiden Hill", 125
+eee, management, b, "Chloe Carter", 126
+civil, scholarship, c, "Mason Morris", 127
+mech, conveneor, a, "Zoe Ward", 128
+cse, management, b, "Ella Russell", 129
+it, scholarship, c, "Jackson Martinez", 130
+aiml, conveneor, a, "Lily Bell", 131
+ece, management, b, "Jack Brooks", 132
+eee, scholarship, c, "Sophie Wright", 133
+civil, conveneor, a, "Noah Bailey", 134
+mech, management, b, "Mila Price", 135
+cse, scholarship, c, "Jacob Coleman", 136
+it, conveneor, a, "Madison Reed", 137
+aiml, management, b, "Grace Ward", 138
+ece, scholarship, c, "Ryan Long", 139
+eee, conveneor, a, "Avery Torres", 140
+civil, management, b, "Luna Foster", 141
+mech, scholarship, c, "Carter Sanders", 142
+cse, conveneor, a, "Ellie Ramirez", 143
+it, management, b, "Mateo Powell", 144
+aiml, scholarship, c, "Stella Wood", 145
+ece, conveneor, a, "Hudson Bennett", 146
+eee, management, b, "Natalie Simmons", 147
+civil, scholarship, c, "Luke Hughes", 148
+mech, conveneor, a, "Leah Foster", 149
+cse, management, b, "Connor Hill", 150
+it, scholarship, c, "Gabriella Bryant", 151
